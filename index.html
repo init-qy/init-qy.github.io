@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="init-qy的个人博客">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="init-qy的个人博客">
+<meta property="og:description" content="个人博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="init-qy">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>init-qy的个人博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">init-qy的个人博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/10/vue-i18n%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="init-qy">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="init-qy的个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/06/10/vue-i18n%E7%9A%84%E4%B8%80%E4%BA%9B%E4%BD%BF%E7%94%A8/" class="post-title-link" itemprop="url">vue-i18n的一些使用</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-06-10 21:59:15 / 修改时间：21:59:20" itemprop="dateCreated datePublished" datetime="2021-06-10T21:59:15+08:00">2021-06-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">前端开发</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>在使用vue编写大型项目时，经常使用的一种国际化方案为Vue i18n。</p>
+<p>其中大部分的使用看<a target="_blank" rel="noopener" href="https://kazupon.github.io/vue-i18n/zh/started.html#javascript" title="vue-i18n">官网</a>就够了,这里仅记录一些在实际使用中的问题。</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul>
+<li><p>t()和tc()<br>这两个方法在大部分情况下展现一致，以至于经常有人混用。事实上，在大部分情况下都应该使用t()，tc()方法适用于复数，它会让 ‘|’ 无法展示。源码中tc()有这么一段：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> choices = message.split(<span class="string">&#x27;|&#x27;</span>); <span class="comment">// line:1807</span></span><br></pre></td></tr></table></figure>
+<p>因此，如果你的message中含有 ‘|’， 请不要使用tc()。</p>
+</li>
+<li><p>复用性<br>在一些form表单中,实现i18n可能会显得非常繁复,很多i18n的字段只有一个地方会用到,比如一个简单的form表单:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-form :model=<span class="string">&quot;numberValidateForm&quot;</span> ref=<span class="string">&quot;numberValidateForm&quot;</span> label-width=<span class="string">&quot;100px&quot;</span> <span class="class"><span class="keyword">class</span></span>=<span class="string">&quot;demo-ruleForm&quot;</span>&gt;</span><br><span class="line">  &lt;el-form-item</span><br><span class="line">    label=<span class="string">&quot;年龄&quot;</span></span><br><span class="line">    prop=<span class="string">&quot;age&quot;</span></span><br><span class="line">    :rules=<span class="string">&quot;[</span></span><br><span class="line"><span class="string">      &#123; required: true, message: &#x27;请输入年龄&#x27;&#125;</span></span><br><span class="line"><span class="string">    ]&quot;</span></span><br><span class="line">  &gt;</span><br><span class="line">    &lt;el-input type=<span class="string">&quot;age&quot;</span> v-model.number=<span class="string">&quot;numberValidateForm.age&quot;</span> autocomplete=<span class="string">&quot;off&quot;</span> placeholder=<span class="string">&quot;请输入年龄&quot;</span>&gt;&lt;/el-input&gt;</span><br><span class="line">  &lt;/el-form-item&gt;</span><br><span class="line">&lt;/el-form&gt;</span><br></pre></td></tr></table></figure>
+<p>在这个form表单中,’年龄’需要i18n,’请输入年龄’也需要,这样i18n就占了两行</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    age: &#x27;年龄&#x27;,</span><br><span class="line">    agePlaceholder: &#x27;请输入年龄&#x27;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>每个字段的i18n就是两倍的工作量,如果i18n还分了模块,代码就变得冗余:<code>$(&#39;modelA.modelB.age&#39;)</code>和<code>$(&#39;modelA.modelB.agePlaceholder&#39;)</code><br>对于这种情况,完全可以写一个方法来代替,如</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="title">placeholder</span>(<span class="params">key, inputType = <span class="number">0</span>, lengthOption = &#123; min: <span class="number">1</span>, max: <span class="number">128</span> &#125;</span>)</span> &#123;</span><br><span class="line">  <span class="comment">// 1 input 2 pick 3 length</span></span><br><span class="line">  <span class="keyword">const</span> name = <span class="built_in">this</span>.$t(<span class="string">`modelA.modelB.<span class="subst">$&#123;key&#125;</span>`</span>);</span><br><span class="line">  <span class="keyword">if</span> (inputType === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (inputType === <span class="number">1</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">this</span>.$t(<span class="string">&#x27;modelA.modelB.nullPrompt&#x27;</span>) + name;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (inputType === <span class="number">2</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">this</span>.$t(<span class="string">&#x27;modelA.modelB.nullPick&#x27;</span>) + name;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (inputType === <span class="number">3</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> name + <span class="built_in">this</span>.$t(<span class="string">&#x27;modelA.modelB.nameLength&#x27;</span>, lengthOption);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/27/%E5%85%B3%E4%BA%8E%E7%9B%91%E5%90%AC%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%B0%E5%BD%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="init-qy">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="init-qy的个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/27/%E5%85%B3%E4%BA%8E%E7%9B%91%E5%90%AC%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%B0%E5%BD%95/" class="post-title-link" itemprop="url">关于监听浏览器窗口大小的一些记录</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-01-27 17:34:36 / 修改时间：17:35:45" itemprop="dateCreated datePublished" datetime="2021-01-27T17:34:36+08:00">2021-01-27</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">前端开发</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>由于需要在vue项目中使用echarts图表，基于canvas的echarts不能随窗口大小改变而改变。这时就需要监听窗口大小，并实时执行echarts的resize方法。</p>
+<h6 id="1-向-Window-对象添加事件句柄"><a href="#1-向-Window-对象添加事件句柄" class="headerlink" title="1. 向 Window 对象添加事件句柄"></a>1. 向 Window 对象添加事件句柄</h6><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="title">mounted</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">  <span class="built_in">window</span>.addEventListener(<span class="string">&#x27;resize&#x27;</span>, <span class="built_in">this</span>.resizeHandler)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="function"><span class="title">destroyed</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">  <span class="built_in">window</span>.removeEventListener(<span class="string">&#x27;resize&#x27;</span>, <span class="built_in">this</span>.resizeHandler)</span><br><span class="line">&#125;,</span><br><span class="line">methods:&#123;</span><br><span class="line">  <span class="function"><span class="title">resizeHandler</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="comment">// do something</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h6 id="2-在-window-的onresize中挂载方法"><a href="#2-在-window-的onresize中挂载方法" class="headerlink" title="2. 在 window 的onresize中挂载方法"></a>2. 在 window 的onresize中挂载方法</h6><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">watch: &#123;</span><br><span class="line">  <span class="function"><span class="title">screenWidth</span>(<span class="params">val</span>)</span> &#123;</span><br><span class="line">    <span class="comment">// 为了避免频繁触发resize函数导致页面卡顿，使用定时器</span></span><br><span class="line">    <span class="keyword">if</span> (!<span class="built_in">this</span>.timer) &#123;</span><br><span class="line">      <span class="comment">// 一旦监听到的screenWidth值改变，就将其重新赋给data里的screenWidth</span></span><br><span class="line">      <span class="built_in">this</span>.screenWidth = val</span><br><span class="line">      <span class="built_in">this</span>.timer = <span class="literal">true</span></span><br><span class="line">      <span class="keyword">const</span> that = <span class="built_in">this</span></span><br><span class="line">      <span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="comment">// 打印screenWidth变化的值</span></span><br><span class="line">        <span class="built_in">console</span>.log(that.screenWidth)</span><br><span class="line">        that.timer = <span class="literal">false</span></span><br><span class="line">        <span class="comment">// do something</span></span><br><span class="line">      &#125;, <span class="number">400</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br><span class="line">mounted () &#123;</span><br><span class="line">  <span class="comment">// 监听页面大小变化</span></span><br><span class="line">  <span class="keyword">const</span> that = <span class="built_in">this</span></span><br><span class="line">  <span class="built_in">window</span>.onresize = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> (<span class="function">() =&gt;</span> &#123;</span><br><span class="line">      <span class="built_in">window</span>.screenWidth = <span class="built_in">document</span>.body.clientWidth</span><br><span class="line">      that.screenWidth = <span class="built_in">window</span>.screenWidth</span><br><span class="line">    &#125;)()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这种方法略显臃肿，而且data里还需要额外维护两个变量</p>
+<h6 id="3-使用-resize-observer-polyfill-监听dom大小变化"><a href="#3-使用-resize-observer-polyfill-监听dom大小变化" class="headerlink" title="3. 使用 resize-observer-polyfill 监听dom大小变化"></a>3. 使用 resize-observer-polyfill 监听dom大小变化</h6><p>这个方法相比于前两个只能监听window大小变化，它可以监听元素大小变化。可以对页面中一些可变元素进行响应，使用方法来自element-ui源码，感谢这位老哥的发现：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/2089f3a5b9a4" title="使用element-ui封装好的resize事件方法">使用element-ui封装好的resize事件方法</a></p>
+<p>使用代码转自这位老哥：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//先引入</span></span><br><span class="line"><span class="comment">//如果项目使用了element-ui，可以直接引用，或者copy一份放在自己的代码里</span></span><br><span class="line"><span class="keyword">import</span> &#123; addResizeListener, removeResizeListener &#125; <span class="keyword">from</span> <span class="string">&#x27;element-ui/src/utils/resize-event&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">  <span class="function"><span class="title">mounted</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="comment">//可以在mounted这个钩子里初始化事件</span></span><br><span class="line">    addResizeListener(<span class="built_in">this</span>.$el, <span class="built_in">this</span>.resizeListener);</span><br><span class="line">  &#125;,</span><br><span class="line">  methods:&#123;</span><br><span class="line">    <span class="function"><span class="title">resizeListener</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      <span class="comment">//do something</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="comment">//生命周期结束时销毁事件</span></span><br><span class="line">  <span class="function"><span class="title">destroyed</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">this</span>.resizeListener) removeResizeListener(<span class="built_in">this</span>.$el, <span class="built_in">this</span>.resizeListener);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="整理"><a href="#整理" class="headerlink" title="整理"></a>整理</h2><p>在整个过程中，跟着源码看到了不少东西，不过没有系统性的去学习，只是大概了解了一下，这里做个整理</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://ponyfoo.com/articles/polyfills-or-ponyfills#ponyfills" title="Polyfills or Ponyfills?">Polyfills or Ponyfills?</a></li>
+<li><a target="_blank" rel="noopener" href="https://echarts.apache.org/zh/index.html" title="echarts官网">echarts官网</a> <em>（在2021.1.28明天，echarts出新版本了。我看了一下，除了canvas，也有用svg渲染的图）</em></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/que-etc/resize-observer-polyfill" title="resize-observer-polyfill">resize-observer-polyfill</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/19/%E6%A0%B9%E6%8D%AEcanvas%E7%9A%84%E6%89%8B%E5%86%99%E7%AD%BE%E5%90%8D%E7%BB%84%E4%BB%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="init-qy">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="init-qy的个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/19/%E6%A0%B9%E6%8D%AEcanvas%E7%9A%84%E6%89%8B%E5%86%99%E7%AD%BE%E5%90%8D%E7%BB%84%E4%BB%B6/" class="post-title-link" itemprop="url">根据canvas的手写签名组件</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-01-19 14:39:07 / 修改时间：15:39:37" itemprop="dateCreated datePublished" datetime="2021-01-19T14:39:07+08:00">2021-01-19</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">前端开发</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>5.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>9 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由于业务需求，需要在钉钉小程序上实现一个手写签名的组件，参考了网上微信小程序实现手写签名的写法，结合自身实际需求，将其包装成一个popup弹出框的样式，同时参考了钉钉审批的手写签名样式。使用到的依赖有<code>mini-ali-ui</code>的popup和button组件。同时还有一个本地的图标。</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;component&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">&quot;usingComponents&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;popup&quot;</span>: <span class="string">&quot;mini-ali-ui-rpx/es/popup/index&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;button&quot;</span>: <span class="string">&quot;mini-ali-ui-rpx/es/button/index&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>具体实现是根据canvas来实现的，小程序端的canvas具体api大同小异，因此这个组件稍改一下应该在微信侧也能使用。</p>
+<h2 id="一些问题"><a href="#一些问题" class="headerlink" title="一些问题"></a>一些问题</h2><ol>
+<li>canvas的宽高必须固定，所以实现是根据实际拿到的宽width，乘以一个固定比值为高。在组件中直接传递即可。</li>
+<li>必传参数dpr，参考<a target="_blank" rel="noopener" href="https://opensupport.alipay.com/support/helpcenter/144/201602562003?ant_source=zsearch" title="如何解决画布模糊问题">如何解决画布模糊问题</a></li>
+<li>或许是我理解错误，save和restore没有实现我想要的效果，所以撤回功能可能需要换一种方式实现。这里去掉了这个功能。</li>
+<li>clearRect不能清除，需要在之前加上一行<code>content.beginPath()</code>，无法理解这个问题如何产生。</li>
+</ol>
+<h6 id="附：clearRect不生效对比图"><a href="#附：clearRect不生效对比图" class="headerlink" title="附：clearRect不生效对比图"></a>附：clearRect不生效对比图</h6><p><img src="https://i.loli.net/2021/01/19/xokKRpPZgyB1AsV.gif" alt="clearRect不生效" title="clearRect不生效"><br><img src="https://i.loli.net/2021/01/19/9a4cnIYhqrBfVDM.gif" alt="clearRect生效" title="clearRect生效"></p>
+<h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><h5 id="axml"><a href="#axml" class="headerlink" title="axml"></a>axml</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">popup</span> <span class="attr">show</span>=<span class="string">&quot;&#123;&#123;show&#125;&#125;&quot;</span> <span class="attr">animation</span>=<span class="string">&quot;&#123;&#123;animation&#125;&#125;&quot;</span> <span class="attr">position</span>=<span class="string">&quot;&#123;&#123;position&#125;&#125;&quot;</span> <span class="attr">onClose</span>=<span class="string">&quot;onCancel&quot;</span> <span class="attr">zIndex</span>=<span class="string">&quot;&#123;&#123;zIndex&#125;&#125;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">&quot;box&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">&quot;toolbar&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">&quot;toolbar&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">onTap</span>=<span class="string">&quot;onCancel&quot;</span>&gt;</span>&#123;&#123;cancelButtonText&#125;&#125;<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">text</span> <span class="attr">a:if</span>=<span class="string">&quot;&#123;&#123;title&#125;&#125;&quot;</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span>&gt;</span>&#123;&#123;title&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">onTap</span>=<span class="string">&quot;onConfirm&quot;</span>&gt;</span>&#123;&#123;confirmButtonText&#125;&#125;<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">view</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">canvas</span> <span class="attr">width</span>=<span class="string">&quot;&#123;&#123;width*dpr&#125;&#125;&quot;</span> <span class="attr">height</span>=<span class="string">&quot;&#123;&#123;height*dpr&#125;&#125;&quot;</span> <span class="attr">style</span>=<span class="string">&quot;&#123;&#123;&#x27;width:&#x27;+(width-4)+&#x27;px;height:&#x27;+(height-4)+&#x27;px;&#x27;&#125;&#125;&quot;</span> <span class="attr">class</span>=<span class="string">&quot;sign&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sign&quot;</span> <span class="attr">onTouchMove</span>=<span class="string">&quot;move&quot;</span> <span class="attr">onTouchStart</span>=<span class="string">&quot;start&quot;</span> <span class="attr">onTouchEnd</span>=<span class="string">&quot;end&quot;</span> <span class="attr">onTouchCancel</span>=<span class="string">&quot;cancel&quot;</span> <span class="attr">onLongTap</span>=<span class="string">&quot;tap&quot;</span> <span class="attr">disable-scroll</span>=<span class="string">&quot;&#123;&#123;true&#125;&#125;&quot;</span> <span class="attr">onTap</span>=<span class="string">&quot;tap&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">image</span> <span class="attr">class</span>=<span class="string">&quot;clear-icon&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/icon/icon_clear.svg&quot;</span> <span class="attr">onTap</span>=<span class="string">&quot;clearClick&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">image</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--适应底部--&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">view</span> <span class="attr">style</span>=<span class="string">&quot;height: 24rpx&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">popup</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h5 id="js"><a href="#js" class="headerlink" title="js"></a>js</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> fmtEvent <span class="keyword">from</span> <span class="string">&quot;mini-ali-ui-rpx/es/_util/fmtEvent&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> noop = <span class="function"><span class="keyword">function</span> <span class="title">noop</span>(<span class="params"></span>) </span>&#123;&#125;;</span><br><span class="line">Component(&#123;</span><br><span class="line">  mixins: [],</span><br><span class="line">  data: &#123;</span><br><span class="line">    ctx: <span class="literal">null</span>,</span><br><span class="line">    points: [],</span><br><span class="line">    signImage: <span class="string">&#x27;&#x27;</span></span><br><span class="line">  &#125;,</span><br><span class="line">  props: &#123;</span><br><span class="line">    show:<span class="literal">false</span>,</span><br><span class="line">    animation:<span class="literal">true</span>,</span><br><span class="line">    zIndex:<span class="number">100</span>,</span><br><span class="line">    title:<span class="string">&#x27;手写签名&#x27;</span>,</span><br><span class="line">    cancelButtonText:<span class="string">&#x27;取消&#x27;</span>,</span><br><span class="line">    confirmButtonText:<span class="string">&#x27;完成&#x27;</span>,</span><br><span class="line">    onCancel:noop,</span><br><span class="line">    onConfirm:noop,</span><br><span class="line">    width: <span class="number">300</span>,</span><br><span class="line">    height: <span class="number">225</span>,</span><br><span class="line">    dpr: <span class="number">2</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="function"><span class="title">didMount</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">//获得Canvas的上下文</span></span><br><span class="line">    <span class="built_in">this</span>.data.ctx = dd.createCanvasContext(<span class="string">&#x27;sign&#x27;</span>);</span><br><span class="line">    <span class="comment">//设置线的颜色</span></span><br><span class="line">    <span class="built_in">this</span>.data.ctx.setStrokeStyle(<span class="string">&quot;#000&quot;</span>);</span><br><span class="line">    <span class="comment">//设置线的宽度</span></span><br><span class="line">    <span class="built_in">this</span>.data.ctx.setLineWidth(<span class="number">3</span>);</span><br><span class="line">    <span class="comment">//设置线两端端点样式更加圆润</span></span><br><span class="line">    <span class="built_in">this</span>.data.ctx.setLineCap(<span class="string">&#x27;round&#x27;</span>);</span><br><span class="line">    <span class="comment">//设置两条线连接处更加圆润</span></span><br><span class="line">    <span class="built_in">this</span>.data.ctx.setLineJoin(<span class="string">&#x27;round&#x27;</span>);</span><br><span class="line">    <span class="built_in">this</span>.data.ctx.scale(<span class="built_in">this</span>.props.dpr,<span class="built_in">this</span>.props.dpr)</span><br><span class="line">    <span class="built_in">this</span>.data.ctx.save()</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="function"><span class="title">didUpdate</span>(<span class="params"></span>)</span> &#123;&#125;,</span><br><span class="line">  <span class="function"><span class="title">didUnmount</span>(<span class="params"></span>)</span> &#123;&#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    <span class="comment">// 画布的触摸移动开始手势响应</span></span><br><span class="line">    start (e) &#123;</span><br><span class="line">      <span class="comment">//获取触摸开始的 x,y</span></span><br><span class="line">      <span class="comment">// this.data.ctx.save()</span></span><br><span class="line">      <span class="built_in">console</span>.log(e)</span><br><span class="line">      <span class="keyword">let</span> point = &#123; <span class="attr">x</span>: e.changedTouches[<span class="number">0</span>].x, <span class="attr">y</span>: e.changedTouches[<span class="number">0</span>].y &#125;</span><br><span class="line">      <span class="built_in">this</span>.$spliceData(&#123;<span class="attr">points</span>: [<span class="number">0</span>, <span class="number">0</span> ,point ]&#125;)</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// 画布的触摸移动手势响应</span></span><br><span class="line">    move (e) &#123;</span><br><span class="line">      <span class="keyword">let</span> point = &#123; <span class="attr">x</span>: e.touches[<span class="number">0</span>].x, <span class="attr">y</span>: e.touches[<span class="number">0</span>].y &#125;</span><br><span class="line">      <span class="built_in">this</span>.$spliceData(&#123;<span class="attr">points</span>: [<span class="built_in">this</span>.data.points.length, <span class="number">0</span> ,point ]&#125;)</span><br><span class="line">      <span class="keyword">if</span> (<span class="built_in">this</span>.data.points.length &gt;= <span class="number">2</span>) &#123;</span><br><span class="line">        <span class="built_in">this</span>.draw();</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// 画布的触摸移动结束手势响应</span></span><br><span class="line">    end (e) &#123;</span><br><span class="line">      <span class="comment">// console.log(&quot;触摸结束&quot;,e);</span></span><br><span class="line">      <span class="comment">//清空轨迹数组</span></span><br><span class="line">      <span class="built_in">this</span>.setData(&#123;</span><br><span class="line">        points: []</span><br><span class="line">      &#125;)</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.save()</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// 画布的触摸取消响应</span></span><br><span class="line">    cancel (e) &#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&quot;触摸取消&quot;</span> + e);</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// 画布的长按手势响应</span></span><br><span class="line">    <span class="function"><span class="title">tap</span>(<span class="params">e</span>)</span> &#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&quot;长按手势&quot;</span> , e);</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="function"><span class="title">error</span>(<span class="params">e</span>)</span> &#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&quot;画布触摸错误&quot;</span> + e);</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">//绘制</span></span><br><span class="line">    <span class="function"><span class="title">draw</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">      <span class="keyword">let</span> point1 = <span class="built_in">this</span>.data.points[<span class="number">0</span>];</span><br><span class="line">      <span class="keyword">let</span> point2 = <span class="built_in">this</span>.data.points[<span class="number">1</span>];</span><br><span class="line">      <span class="built_in">this</span>.$spliceData(&#123;<span class="attr">points</span>: [<span class="number">0</span>, <span class="number">1</span> ]&#125;)</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.moveTo(point1.x, point1.y);</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.lineTo(point2.x, point2.y);</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.stroke();</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.draw();</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">//清除操作</span></span><br><span class="line">    <span class="function"><span class="title">clearClick</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">      <span class="comment">//清除画布</span></span><br><span class="line">      <span class="comment">// console.log(this.data.points)</span></span><br><span class="line">      <span class="built_in">this</span>.data.ctx.save();</span><br><span class="line">      <span class="comment">//非常重要,没有就会有问题</span></span><br><span class="line">      <span class="built_in">this</span>.data.ctx.beginPath()</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.clearRect(<span class="number">0</span>, <span class="number">0</span>,<span class="built_in">this</span>.props.width, <span class="built_in">this</span>.props.height);</span><br><span class="line"></span><br><span class="line">      <span class="built_in">this</span>.data.ctx.draw();</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">//保存图片</span></span><br><span class="line">    <span class="function"><span class="title">saveClick</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">      <span class="keyword">const</span> that = <span class="built_in">this</span>;</span><br><span class="line">      <span class="built_in">this</span>.data.ctx.toTempFilePath(&#123;</span><br><span class="line">        <span class="function"><span class="title">success</span>(<span class="params">res</span>)</span> &#123;</span><br><span class="line">          <span class="built_in">console</span>.log(res)</span><br><span class="line">          that.setData(&#123;</span><br><span class="line">            signImage: res.filePath</span><br><span class="line">          &#125;)</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="function"><span class="title">onCancel</span>(<span class="params">e</span>)</span>&#123;</span><br><span class="line">      <span class="keyword">const</span> event = fmtEvent(<span class="built_in">this</span>.props, e);</span><br><span class="line">      <span class="built_in">this</span>.props.onCancel(event);</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="function"><span class="title">onConfirm</span>(<span class="params">e</span>)</span>&#123;</span><br><span class="line">      <span class="built_in">this</span>.saveClick()</span><br><span class="line">      e.detail.value = <span class="built_in">this</span>.data.signImage</span><br><span class="line">      <span class="keyword">const</span> event = fmtEvent(<span class="built_in">this</span>.props, e);</span><br><span class="line">      <span class="built_in">this</span>.props.onConfirm(event);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h5 id="acss"><a href="#acss" class="headerlink" title="acss"></a>acss</h5><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.sign</span>&#123;</span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">    <span class="attribute">border</span>: <span class="number">2px</span> <span class="number">#BBBBBB</span> dashed;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.toolbar</span>&#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">24</span>rpx;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">    <span class="attribute">flex-wrap</span>: nowrap;</span><br><span class="line">    <span class="attribute">justify-content</span>: space-between;</span><br><span class="line">    <span class="attribute">align-items</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.am-button</span>&#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">28</span>rpx;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.title</span>&#123;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">600</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.clear-icon</span>&#123;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">40</span>rpx;</span><br><span class="line">    <span class="attribute">bottom</span>: <span class="number">80</span>rpx;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">66</span>rpx;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">66</span>rpx;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/05/%E5%85%B3%E4%BA%8Ejs%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E4%B8%80%E7%82%B9%E7%A0%94%E7%A9%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="init-qy">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="init-qy的个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/05/%E5%85%B3%E4%BA%8Ejs%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E7%9A%84%E4%B8%80%E7%82%B9%E7%A0%94%E7%A9%B6/" class="post-title-link" itemprop="url">关于js异步编程的一点研究</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-01-05 11:19:21 / 修改时间：15:52:16" itemprop="dateCreated datePublished" datetime="2021-01-05T11:19:21+08:00">2021-01-05</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">前端开发</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在看阮老师的<a target="_blank" rel="noopener" href="https://wangdoc.com/">JavaScript基础和es6文档</a>，其中关于异步的处理，我觉得有必要整理一下。这有助于我逐步改善自己的编程风格，提升代码质量。</p>
+<h1 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h1><p>文档传送门：<a target="_blank" rel="noopener" href="https://wangdoc.com/es6/promise.html" title="Promise 对象">Promise 对象</a><br>promise已经是现如今最广泛使用的异步解决方案，几乎已经没有人去使用回调来解决异步问题。callback最广为人知的问题是回调地狱，因此promise应运而生。然鹅，promise的链式调用也没有从根本上解决这个问题，.then()的调用只是换了一种写法；同时，promise的错误处理也是一个大麻烦。<br><strong>Promise.all()</strong></p>
+<blockquote>
+<p>Promise.all()方法用于将多个 Promise 实例，包装成一个新的 Promise 实例。</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> p = <span class="built_in">Promise</span>.all([p1, p2, p3]);</span><br></pre></td></tr></table></figure>
+<p>上面代码中，Promise.all()方法接受一个数组作为参数，p1、p2、p3都是 Promise 实例，如果不是，就会先调用下面讲到的Promise.resolve方法，将参数转为 Promise 实例，再进一步处理。另外，Promise.all()方法的参数可以不是数组，但必须具有 Iterator 接口，且返回的每个成员都是 Promise 实例。<br>p的状态由p1、p2、p3决定，分成两种情况。<br>（1）只有p1、p2、p3的状态都变成fulfilled，p的状态才会变成fulfilled，此时p1、p2、p3的返回值组成一个数组，传递给p的回调函数。<br>（2）只要p1、p2、p3之中有一个被rejected，p的状态就变成rejected，此时第一个被reject的实例的返回值，会传递给p的回调函数。</p>
+<p>先来看个例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sleep</span>(<span class="params">t</span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(t)</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(t+<span class="string">&#x27;运行结束&#x27;</span>)</span><br><span class="line">      resolve()</span><br><span class="line">    &#125;,t)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 这时我需要调用sleep两次,这两次调用需要同时进行,并在两次调用都返回值后打印总运行时间</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">const</span> start = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime()</span><br><span class="line">  <span class="built_in">Promise</span>.all([sleep(<span class="number">2000</span>),sleep(<span class="number">1000</span>)]).then(<span class="function"><span class="params">res</span>=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">const</span> end = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime()</span><br><span class="line">    <span class="keyword">const</span> time = (end - start)/<span class="number">1000</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;总共运行时间为&#x27;</span>+time)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line">f()</span><br><span class="line"><span class="comment">// &gt; 2000</span></span><br><span class="line"><span class="comment">// &gt; 1000</span></span><br><span class="line"><span class="comment">// &gt; &quot;1000运行结束&quot;</span></span><br><span class="line"><span class="comment">// &gt; &quot;2000运行结束&quot;</span></span><br><span class="line"><span class="comment">// &gt; &quot;总共运行时间为2.001&quot;</span></span><br></pre></td></tr></table></figure>
+<p>这个方法可以应用在多个http需要同时请求时的情况。需要注意的是，这时的错误处理需要分情况处理：如果原Promise实例有自己的catch处理，则不会触发all的catch，反之会触发all的catch<br><strong>Promise.race()</strong><br>这个方法与all类似，区别是只要有一个Promise先改变了状态（resolve，reject皆可），就会传回回调。这个方法暂时没有想到什么应用方向（感觉它与高并发的秒杀业务流程类似）<br><strong>Promise.any()</strong><br>Promise.any()跟Promise.race()方法很像，只有一点不同，就是不会因为某个 Promise 变成rejected状态而结束。<br>这是es2021引入的新方法。<del>谨慎使用</del></p>
+<h1 id="async-await"><a href="#async-await" class="headerlink" title="async/await"></a>async/await</h1><p>文档传送门：<a target="_blank" rel="noopener" href="https://wangdoc.com/es6/async.html" title="async 函数">async 函数</a></p>
+<blockquote>
+<p>async 函数是什么？一句话，它就是 Generator 函数的语法糖。</p>
+</blockquote>
+<p>文档中提到了 Generator 函数，这个函数我粗略的看了一下，它的异步应用似乎只是它延申出的应用而已，本身是实现了函数的分步执行。在有了async/await之后，似乎并不需要它来实现异步了。参考：<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/290681846" title="ES6+中的Generator 函数有何特别之处？">ES6+中的Generator 函数有何特别之处？</a><br><strong>基本使用</strong><br>作为一个语法糖，可以将上述代码简化：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">const</span> start = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime()</span><br><span class="line">  <span class="comment">// 少了.then()的链式调用，代码清晰了不少</span></span><br><span class="line">  <span class="keyword">await</span> <span class="built_in">Promise</span>.all([sleep(<span class="number">2000</span>),sleep(<span class="number">1000</span>)])</span><br><span class="line">  <span class="keyword">const</span> end = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime()</span><br><span class="line">  <span class="keyword">const</span> time = (end - start)/<span class="number">1000</span></span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&#x27;总共运行时间为&#x27;</span>+time)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>sleep()函数也可以用async/await写法，除了写法不同，实际运行效果一样：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">sleep</span>(<span class="params">t</span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(t)</span><br><span class="line">  <span class="keyword">await</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">setTimeout</span>(<span class="function">()=&gt;</span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(t+<span class="string">&#x27;运行结束&#x27;</span>)</span><br><span class="line">      resolve()</span><br><span class="line">    &#125;,t)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>错误处理</strong><br>如果使用多个await处理异步函数，在前一个函数返回reject时，之后不会执行。为了防止出错，需要将其放在try…catch代码块之中。<br>一个文档中的使用例子，可以实现多次重复尝试。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> superagent = <span class="built_in">require</span>(<span class="string">&#x27;superagent&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> NUM_RETRIES = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> i;</span><br><span class="line">  <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; NUM_RETRIES; ++i) &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">      <span class="keyword">await</span> superagent.get(<span class="string">&#x27;http://google.com/this-throws-an-error&#x27;</span>);</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    &#125; <span class="function"><span class="title">catch</span>(<span class="params">err</span>)</span> &#123;&#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">console</span>.log(i); <span class="comment">// 3</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">test();</span><br></pre></td></tr></table></figure>
+<h1 id="持续学习"><a href="#持续学习" class="headerlink" title="持续学习"></a>持续学习</h1><p>关于js的异步编程，我自认还没有完全了解，只是了解了写法和部分原理，只有持续学习，看看在实际应用中还是否会遇上问题。</p>
+<p><em>几篇不错的文章（可能会更新）：</em></p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/83965949" title="100 行代码实现 Promises/A+ 规范">100 行代码实现 Promises/A+ 规范</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/42649246" title="小哥哥小姐姐，来尝尝 Async 函数这块语法糖">小哥哥小姐姐，来尝尝 Async 函数这块语法糖</a></li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/25/%E5%85%B3%E4%BA%8Ejs%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E7%9A%84%E4%B8%80%E7%82%B9%E7%A0%94%E7%A9%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="init-qy">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="init-qy的个人博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/25/%E5%85%B3%E4%BA%8Ejs%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6%E7%9A%84%E4%B8%80%E7%82%B9%E7%A0%94%E7%A9%B6/" class="post-title-link" itemprop="url">关于js运行机制的一点研究</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-12-25 17:38:48 / 修改时间：21:33:18" itemprop="dateCreated datePublished" datetime="2020-12-25T17:38:48+08:00">2020-12-25</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">前端开发</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近追了阮一峰阮老师的博客，真的是吾辈楷模。写博客不难，难得是一直写博客，一直保持学习、分享的精神。坚持是一件很难的事情，希望我能够坚持下去。言归正传，我是通过阮老师一篇据说被喷的博客（<a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/2014/10/event-loop.html" title="JavaScript 运行机制详解：再谈Event Loop">JavaScript 运行机制详解：再谈Event Loop</a>）中去理解了一下，自己做了一点总结。</p>
+<h1 id="Event-Loop"><a href="#Event-Loop" class="headerlink" title="Event Loop"></a>Event Loop</h1><blockquote>
+<p>主线程从”任务队列”中读取事件，这个过程是循环不断的，所以整个的这种运行机制又称为Event Loop（事件循环）。</p>
+</blockquote>
+<p>先从一个简单的例子来说明js的这种机制：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/25407758" title="一道简单的面试题">一道简单的面试题</a></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">1</span>)</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"><span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="keyword">function</span> <span class="title">executor</span>(<span class="params">resolve</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">  <span class="function"><span class="title">for</span>(<span class="params"> <span class="keyword">var</span> i=<span class="number">0</span> ; i&lt;<span class="number">10000</span> ; i++ </span>)</span> &#123;</span><br><span class="line">    i == <span class="number">9999</span> &amp;&amp; resolve();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">3</span>);</span><br><span class="line">&#125;).then(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">4</span>);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="number">5</span>);</span><br></pre></td></tr></table></figure>
+<p>这段代码可以直接在浏览器中运行，其中打印的顺序为2，3，5，4，1<br>js是单线程的，执行的过程从上到下</p>
+<ol>
+<li>setTimeout函数放入“任务队列”</li>
+<li>promise里函数直接执行，打印 2，resolve()不会影响后面代码执行，打印3，then里的函数会放在当前执行的最后</li>
+<li>打印5</li>
+<li>来到当前函数下个循环之前，执行then里的函数，打印4</li>
+<li>setTimeout函数已就绪，打印1</li>
+</ol>
+<p>关于setTimeout函数有几点需要注意：</p>
+<ul>
+<li>最小执行时间根据浏览器有所不同，如果需要表现出先后执行顺序，最好设置在16ms以上</li>
+<li>设置的时间不一定会精确，可能因为当前代码延迟出现不准的情况</li>
+</ul>
+<blockquote>
+<p>需要注意的是，setTimeout()只是将事件插入了”任务队列”，必须等到当前代码（执行栈）执行完，主线程才会去执行它指定的回调函数。要是当前代码耗时很长，有可能要等很久，所以并没有办法保证，回调函数一定会在setTimeout()指定的时间执行。</p>
+</blockquote>
+<h1 id="vue中的-nextTick"><a href="#vue中的-nextTick" class="headerlink" title="vue中的$nextTick"></a>vue中的$nextTick</h1><p>官方文档：<a target="_blank" rel="noopener" href="https://cn.vuejs.org/v2/guide/reactivity.html#%E5%BC%82%E6%AD%A5%E6%9B%B4%E6%96%B0%E9%98%9F%E5%88%97" title="异步更新队列">异步更新队列</a></p>
+<blockquote>
+<p>Vue 在内部对异步队列尝试使用原生的 Promise.then、MutationObserver 和 setImmediate，如果执行环境不支持，则会采用 setTimeout(fn, 0) 代替。</p>
+</blockquote>
+<p>如果$nextTick使用原生的 Promise.then，那么它应该与Promise.then平级，执行顺序取决于代码的先后，事实上确实如此。<br>在node.js中也存在process.nextTick方法，不过因为不熟悉，暂且不表。</p>
+<h1 id="小程序中的wx-nextTick"><a href="#小程序中的wx-nextTick" class="headerlink" title="小程序中的wx.nextTick"></a>小程序中的wx.nextTick</h1><p>官方文档：<a target="_blank" rel="noopener" href="https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html" title="wx.nextTick">wx.nextTick</a><br>小程序中还未接触过这个方法，但是在vant-weapp源码中存在。官方文档的解释比较模糊，但大致可以确定为下一个时间段(tick)执行。</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>了解到这些可能不会真正意义上提高你的代码水平，它很少出现在日常的代码中。不过这些东西，知道就是知道，总会有bug和坑等待你的发现，到时候，说不定身边正好有一根绳子。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">init-qy</p>
+  <div class="site-description" itemprop="description">个人博客</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/init-qy" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;init-qy" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fab fa-envira"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">init-qy</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">25k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">42 分钟</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
